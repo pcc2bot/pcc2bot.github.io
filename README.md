@@ -1,5 +1,5 @@
 # Bot Commands
-> (required) arguments, {optional} arguments
+> (required) arguments, {optional} arguments, ... - any arguments
 
 <details>
   <summary>/cat</summary>
@@ -39,4 +39,34 @@
   <summary>/exchange</summary>
   
   Returns the current ingame cryptocurency exchange prices.
+</details>
+
+<details>
+  <summary>/user {ID}</summary>
+  
+  Returns info on a user.
+  
+  Examples:
+  > **/user**
+  >
+  > *Returns info about your account*
+  
+  > **/user 466664**
+  >
+  > *Returns info about an account that has the ID 466664*
+</details>
+
+<details>
+  <summary>/choose (item1) / (item2) / ...</summary>
+  
+  Chooses something from a list. The list can have any length.
+  
+  Examples:
+  > **/choose hello / hi**
+  >
+  > *Returns a random choice of hello or hi*
+  
+  > **/choose hello / hi / goodbye / bye**
+  >
+  > *Returns a random choice of hello, hi, goodbye or bye*
 </details>
